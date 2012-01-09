@@ -1,0 +1,9 @@
+The easiest way to build this project is to open a command line (linux / mac) or the QT command line (windows). 
+cd into the folder and run the following commands. 
+qmake
+make
+./DemoScene 
+
+Another option is to load the .pro file with QT creator. If you do build in QT creator it has a tendency to dump the output files into another directory. Before you run copy in the shaders and model folder to this new director before running otherwise you'll get a bunch of errors. 
+
+once the example is running you can look around with the mouse (hold the left mouse button down to move). move up and down with the scroll wheel and move around with WASD. I never updated the rotation vectors so WASD always moves you in a fixed direction, unlike a modern FPS.
