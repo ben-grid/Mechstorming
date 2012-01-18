@@ -11,20 +11,6 @@
 #include <QGLBuffer>
 #include <QtOpenGL>
 
-
-#ifdef USEGLEW
-#include <GL/glew.h>
-#endif
-#define GL_GLEXT_PROTOTYPES
-#ifdef __APPLE__
-#include <GLUT/glut.h>
-#else
-#include <GL/glut.h>
-#endif
-
-
-class QtLogo;
-
 class GLWidget : public QGLWidget
 {
     Q_OBJECT
